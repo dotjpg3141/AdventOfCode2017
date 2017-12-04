@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1_InverseCaptcha", "Day1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_CorruptionChecksum", "Day2_CorruptionChecksum\Day2_CorruptionChecksum.csproj", "{6B595F6E-11B5-41DE-A193-0FDCA662E1B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3_SpiralMemory", "Day3_SpiralMemory\Day3_SpiralMemory.csproj", "{6A243FCD-6303-4684-AFB4-C39D908A04CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4_HighEntropyPassphrases", "Day4_HighEntropyPassphrases\Day4_HighEntropyPassphrases.csproj", "{DA76E91B-6897-47F0-9897-B8C83D424083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6B595F6E-11B5-41DE-A193-0FDCA662E1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B595F6E-11B5-41DE-A193-0FDCA662E1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B595F6E-11B5-41DE-A193-0FDCA662E1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A243FCD-6303-4684-AFB4-C39D908A04CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A243FCD-6303-4684-AFB4-C39D908A04CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A243FCD-6303-4684-AFB4-C39D908A04CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A243FCD-6303-4684-AFB4-C39D908A04CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA76E91B-6897-47F0-9897-B8C83D424083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA76E91B-6897-47F0-9897-B8C83D424083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA76E91B-6897-47F0-9897-B8C83D424083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA76E91B-6897-47F0-9897-B8C83D424083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
