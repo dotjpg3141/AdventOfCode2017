@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day7_RecursiveCircus", "Day
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8_IHeardYouLikeRegisters", "Day8_IHeardYouLikeRegisters\Day8_IHeardYouLikeRegisters.csproj", "{52202716-BC7B-4D49-8803-31C6ECD8507E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day9_StreamProcessing", "Day9_StreamProcessing\Day9_StreamProcessing.csproj", "{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{52202716-BC7B-4D49-8803-31C6ECD8507E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52202716-BC7B-4D49-8803-31C6ECD8507E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52202716-BC7B-4D49-8803-31C6ECD8507E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
