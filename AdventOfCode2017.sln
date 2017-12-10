@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1_InverseCaptcha", "Day1_InverseCaptcha\Day1_InverseCaptcha.csproj", "{2F41C6B0-A2A1-4668-91FD-741195EF355F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01_InverseCaptcha", "Day1_InverseCaptcha\Day01_InverseCaptcha.csproj", "{2F41C6B0-A2A1-4668-91FD-741195EF355F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_CorruptionChecksum", "Day2_CorruptionChecksum\Day2_CorruptionChecksum.csproj", "{6B595F6E-11B5-41DE-A193-0FDCA662E1B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02_CorruptionChecksum", "Day2_CorruptionChecksum\Day02_CorruptionChecksum.csproj", "{6B595F6E-11B5-41DE-A193-0FDCA662E1B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3_SpiralMemory", "Day3_SpiralMemory\Day3_SpiralMemory.csproj", "{6A243FCD-6303-4684-AFB4-C39D908A04CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_SpiralMemory", "Day3_SpiralMemory\Day03_SpiralMemory.csproj", "{6A243FCD-6303-4684-AFB4-C39D908A04CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4_HighEntropyPassphrases", "Day4_HighEntropyPassphrases\Day4_HighEntropyPassphrases.csproj", "{DA76E91B-6897-47F0-9897-B8C83D424083}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_HighEntropyPassphrases", "Day4_HighEntropyPassphrases\Day04_HighEntropyPassphrases.csproj", "{DA76E91B-6897-47F0-9897-B8C83D424083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day5_AMazeOfTwistyTrampolinesAllAlike", "Day5_AMazeOfTwistyTrampolinesAllAlike\Day5_AMazeOfTwistyTrampolinesAllAlike.csproj", "{D71B9C38-9D98-47A3-A293-69D1759390D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_AMazeOfTwistyTrampolinesAllAlike", "Day5_AMazeOfTwistyTrampolinesAllAlike\Day05_AMazeOfTwistyTrampolinesAllAlike.csproj", "{D71B9C38-9D98-47A3-A293-69D1759390D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day6_MemoryReallocation", "Day6_MemoryReallocation\Day6_MemoryReallocation.csproj", "{3E00D92D-48E3-401F-A494-308A1F5D0E56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_MemoryReallocation", "Day6_MemoryReallocation\Day06_MemoryReallocation.csproj", "{3E00D92D-48E3-401F-A494-308A1F5D0E56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day7_RecursiveCircus", "Day7_RecursiveCircus\Day7_RecursiveCircus.csproj", "{408FA32D-6EB5-4755-9552-00C08035A06E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_RecursiveCircus", "Day7_RecursiveCircus\Day07_RecursiveCircus.csproj", "{408FA32D-6EB5-4755-9552-00C08035A06E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8_IHeardYouLikeRegisters", "Day8_IHeardYouLikeRegisters\Day8_IHeardYouLikeRegisters.csproj", "{52202716-BC7B-4D49-8803-31C6ECD8507E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day08_IHeardYouLikeRegisters", "Day8_IHeardYouLikeRegisters\Day08_IHeardYouLikeRegisters.csproj", "{52202716-BC7B-4D49-8803-31C6ECD8507E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day9_StreamProcessing", "Day9_StreamProcessing\Day9_StreamProcessing.csproj", "{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day09_StreamProcessing", "Day9_StreamProcessing\Day09_StreamProcessing.csproj", "{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10_KnotHash", "Day10_KnotHash\Day10_KnotHash.csproj", "{4BA6BD6B-C02E-4B09-99FE-23DFDE7728E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F31AB93C-FB84-4C81-9E06-7EA67B5559DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA6BD6B-C02E-4B09-99FE-23DFDE7728E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA6BD6B-C02E-4B09-99FE-23DFDE7728E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA6BD6B-C02E-4B09-99FE-23DFDE7728E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA6BD6B-C02E-4B09-99FE-23DFDE7728E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
