@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day09_StreamProcessing", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10_KnotHash", "Day10_KnotHash\Day10_KnotHash.csproj", "{4BA6BD6B-C02E-4B09-99FE-23DFDE7728E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day11_HexEd", "Day11_HexEd\Day11_HexEd.csproj", "{5D86E9CE-050B-40AB-A063-0718EBB570A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{4BA6BD6B-C02E-4B09-99FE-23DFDE7728E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA6BD6B-C02E-4B09-99FE-23DFDE7728E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA6BD6B-C02E-4B09-99FE-23DFDE7728E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D86E9CE-050B-40AB-A063-0718EBB570A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D86E9CE-050B-40AB-A063-0718EBB570A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D86E9CE-050B-40AB-A063-0718EBB570A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D86E9CE-050B-40AB-A063-0718EBB570A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
