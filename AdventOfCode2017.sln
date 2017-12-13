@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day11_HexEd", "Day11_HexEd\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day12_DigitalPlumber", "Day12_DigitalPlumber\Day12_DigitalPlumber.csproj", "{558E5922-DEA7-44EB-B6B9-341635E117B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day13_PacketScanners", "Day13_PacketScanners\Day13_PacketScanners.csproj", "{91C6FC5C-6475-4742-9F8E-EFD7E1925B2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{558E5922-DEA7-44EB-B6B9-341635E117B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{558E5922-DEA7-44EB-B6B9-341635E117B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{558E5922-DEA7-44EB-B6B9-341635E117B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C6FC5C-6475-4742-9F8E-EFD7E1925B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C6FC5C-6475-4742-9F8E-EFD7E1925B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C6FC5C-6475-4742-9F8E-EFD7E1925B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C6FC5C-6475-4742-9F8E-EFD7E1925B2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
