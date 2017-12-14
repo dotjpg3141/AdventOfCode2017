@@ -8,7 +8,7 @@ using MoreLinq;
 
 namespace Day10_KnotHash
 {
-	static class Program
+	public static class Program
 	{
 		static void Main(string[] args)
 		{
@@ -42,6 +42,12 @@ namespace Day10_KnotHash
 
 		static string KnotHash2(string input, bool debugOutput = false)
 		{
+			var knotHash = KnotHash(input, debugOutput);
+			return string.Join("", knotHash.Select(value => value.ToString("x2")));
+		}
+
+		public static byte[] KnotHash(string input, bool debugOutput = false)
+		{
 			var lengths = input
 				.Select(c => (int)c)
 				.Concat(new[] { 17, 31, 73, 47, 23 })
@@ -56,17 +62,18 @@ namespace Day10_KnotHash
 				KnotHash(lengths, sparseHash, ref currentPosition, ref skipSize, debugOutput);
 			}
 
-			var denseHash = new List<int>();
+			var denseHash = new List<byte>();
 
 			const int chunkSize = 16;
 			for (int i = 0; i < sparseHash.Count; i += chunkSize)
 			{
 				denseHash.Add(sparseHash
 					.Slice(i, chunkSize)
-					.Aggregate((a, b) => a ^ b));
+					.Select(val => (byte)val)
+					.Aggregate((a, b) => (byte)(a ^ b)));
 			}
 
-			return string.Join("", denseHash.Select(value => value.ToString("x2")));
+			return denseHash.ToArray();
 		}
 
 		static void KnotHash(IEnumerable<int> lengths, List<int> list, ref int currentPosition, ref int skipSize, bool debugOutput)
