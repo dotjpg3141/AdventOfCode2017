@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day14_DiskDefragmentation",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day15_DuelingGenerators", "Day15_DuelingGenerators\Day15_DuelingGenerators.csproj", "{09F53564-B52A-4E4F-BCDA-AC753A59CF30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day16_PermutationPromenade", "Day16_PermutationPromenade\Day16_PermutationPromenade.csproj", "{3D0060C4-B99C-45CF-B36B-9CE9BD02D519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day17_Spinlock", "Day17_Spinlock\Day17_Spinlock.csproj", "{3BB009AA-695C-454E-B97C-1854B64CE1D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{09F53564-B52A-4E4F-BCDA-AC753A59CF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09F53564-B52A-4E4F-BCDA-AC753A59CF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09F53564-B52A-4E4F-BCDA-AC753A59CF30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0060C4-B99C-45CF-B36B-9CE9BD02D519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0060C4-B99C-45CF-B36B-9CE9BD02D519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0060C4-B99C-45CF-B36B-9CE9BD02D519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0060C4-B99C-45CF-B36B-9CE9BD02D519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB009AA-695C-454E-B97C-1854B64CE1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB009AA-695C-454E-B97C-1854B64CE1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB009AA-695C-454E-B97C-1854B64CE1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB009AA-695C-454E-B97C-1854B64CE1D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
