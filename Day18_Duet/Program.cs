@@ -134,7 +134,7 @@ namespace Day18_Duet
 		}
 
 		public static List<Instruction> ParseInput(string input)
-			=> input.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
+			=> input.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
 				.Select(line => line.Split(' '))
 				.Select(args => new Instruction()
 				{
@@ -149,17 +149,22 @@ namespace Day18_Duet
 			public List<Instruction> Instructions { get; set; }
 			public Dictionary<string, BigInteger> Registers { get; set; } = new Dictionary<string, BigInteger>();
 			public int InstructionIndex { get; set; }
-			public bool Terminated => InstructionIndex < 0 || InstructionIndex >= Instructions.Count;
+			public bool Terminated
+				=> InstructionIndex < 0
+				|| InstructionIndex >= Instructions.Count;
 
 			// NOTE(jpg): sound mode specific
 			public bool HitRcv { get; set; }
 			public BigInteger LastPlayedFrequency { get; set; }
 
-			// NOTE(jpg): "multi-threading" specific
+			// NOTE(jpg): "multi-threading" mode specific
 			public int SendCount { get; set; }
 			public Queue<BigInteger> InputQueue { get; set; }
 			public Queue<BigInteger> OutputQueue { get; set; }
-			public bool WaitingForInput => !Terminated && Instructions[InstructionIndex].Type == InstructionType.Rcv && InputQueue.Count == 0;
+			public bool WaitingForInput
+				=> !Terminated
+				&& Instructions[InstructionIndex].Type == InstructionType.Rcv
+				&& InputQueue.Count == 0;
 
 			public BigInteger Read(InsnValue insnValue)
 				=> insnValue.RegisterName == null
@@ -184,8 +189,19 @@ namespace Day18_Duet
 
 		public class InsnValue
 		{
-			public string RegisterName { get; set; }
-			public BigInteger Value { get; set; }
+			private object _internalValue;
+
+			public string RegisterName
+			{
+				get => _internalValue as string;
+				set => _internalValue = value;
+			}
+
+			public BigInteger Value
+			{
+				get => _internalValue is BigInteger i ? i : throw new InvalidOperationException();
+				set => _internalValue = value;
+			}
 
 			public static InsnValue Parse(string s)
 				=> BigInteger.TryParse(s, out var val)
