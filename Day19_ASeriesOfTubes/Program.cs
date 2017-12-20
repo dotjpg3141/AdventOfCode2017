@@ -26,7 +26,7 @@ namespace Day19_ASeriesOfTubes
 
 		static Map ParseInput(string input)
 		{
-			var lines = input.Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+			var lines = input.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 			int width = lines[0].Length;
 			int height = lines.Length;
 
@@ -119,6 +119,5 @@ namespace Day19_ASeriesOfTubes
 			public (int x, int y) StartPosition;
 			public (int dx, int dy) StartDirection;
 		}
-
 	}
 }
